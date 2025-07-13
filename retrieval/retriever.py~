@@ -1,0 +1,7 @@
+from retrieval.embedder import embed_text
+from retrieval.vector_store import search
+
+def retrieve(query):
+    query_embedding = embed_text([query])[0]
+    indices = search(query_embedding)
+    return [f"Document {i}" for i in indices[0]]

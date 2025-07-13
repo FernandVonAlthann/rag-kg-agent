@@ -1,0 +1,5 @@
+OPENAI_API_KEY = "your-api-key"
+VECTOR_DB_PATH = "data/processed/vector_store"
+KG_DB_URI = "bolt://localhost:7687"
+KG_DB_USER = "neo4j"
+KG_DB_PASSWORD = "password"

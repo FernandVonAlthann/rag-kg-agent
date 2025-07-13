@@ -1,0 +1,10 @@
+openai
+langchain
+faiss-cpu
+qdrant-client
+neo4j
+py2neo
+rdflib
+transformers
+sentence-transformers
+loguru
